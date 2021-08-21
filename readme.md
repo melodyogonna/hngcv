@@ -2,4 +2,4 @@
 
 ## Simple CV created with HTML and Bootstrap.
 
-![Logo screenshot](https://res.cloudinary.com/tonorp/image/upload/v1629550433/Screenshot_2021-08-21_at_13.52.03_bwbbl2.png)
+![App recording]https://res.cloudinary.com/melodyogonna/video/upload/c_scale,w_1153/v1629557016/Screen_Recording_2021-08-21_at_15.38.30_ywpr8x.gif()
