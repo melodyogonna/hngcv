@@ -11,7 +11,7 @@ type ContactDetails struct {
 	Name    string `form:"name"`
 	Email   string `form:"email"`
 	Phone   string `form:"phone"`
-	Address string `form:"address"`
+	Message string `form:"message"`
 }
 
 func main() {
@@ -36,11 +36,8 @@ func main() {
 			return err
 		}
 
-		return c.Render("index", fiber.Map{
-			"name":    ct.Name,
-			"email":   ct.Email,
-			"phone":   ct.Phone,
-			"address": ct.Address,
+		return c.Render("greet", fiber.Map{
+			"name": ct.Name,
 		})
 	})
 

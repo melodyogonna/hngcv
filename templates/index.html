@@ -33,9 +33,39 @@
                 innovative and effective solutions to real-world problems.
               </p>
             </section>
+
+            <section class="experiences mt-5">
+              <h2>Work Experience</h2>
+
+              <div class="experiences__list mt-3">
+                <div class="experiences__container">
+                  <h4>Backend developer intern - Remote</h4>
+                  <span>Zuri Internship</span><br />
+                  <span>Aug 2021 - Present</span>
+
+                  <ul class="mt-3 px-3">
+                    <li>Completed tasks</li>
+                  </ul>
+                  <b>Technologies: Go, HTML, CSS, Javascript</b>
+                </div>
+                <div class="experiences__container mt-5">
+                  <h4>Backend developer intern - Remote</h4>
+                  <span>HNG Internship</span><br />
+                  <span>Aug 2019 - November 2019</span>
+
+                  <ul class="mt-3 px-3">
+                    <li>Completed tasks</li>
+                    <li>Organized and worked with teams</li>
+                    <li>Developed applications for real-world use</li>
+                    <li>Networked and made friends</li>
+                  </ul>
+                  <b>Technologies: Python, HTML, CSS, Javascript</b>
+                </div>
+              </div>
+            </section>
           </div>
           <div class="col-md-4">
-            <h4>Edit contact details</h4>
+            <h4>Send a message</h4>
             <form action="" method="post" accept-charset="utf-8">
               <div class="form-group">
                 <label for="name">Name</label>
@@ -68,50 +98,20 @@
                 />
               </div>
               <div class="form-group mt-3">
-                <label for="address">Address</label>
-                <input
-                  type="text"
-                  value="{{.address}}"
-                  name="address"
-                  id="address"
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
                   class="form-control"
-                />
+                  cols="30"
+                  rows="10"
+                ></textarea>
               </div>
 
-              <button class="btn btn-primary mt-4">Edit Fields</button>
+              <button class="btn btn-primary mt-4">Send Message</button>
             </form>
           </div>
         </div>
-
-        <section class="experiences mt-5">
-          <h2>Work Experience</h2>
-
-          <div class="experiences__list mt-3">
-            <div class="experiences__container">
-              <h4>Backend developer intern - Remote</h4>
-              <span>Zuri Internship</span><br />
-              <span>Aug 2021 - Present</span>
-
-              <ul class="mt-3 px-3">
-                <li>Completed tasks</li>
-              </ul>
-              <b>Technologies: Go, HTML, CSS, Javascript</b>
-            </div>
-            <div class="experiences__container mt-5">
-              <h4>Backend developer intern - Remote</h4>
-              <span>HNG Internship</span><br />
-              <span>Aug 2019 - November 2019</span>
-
-              <ul class="mt-3 px-3">
-                <li>Completed tasks</li>
-                <li>Organized and worked with teams</li>
-                <li>Developed applications for real-world use</li>
-                <li>Networked and made friends</li>
-              </ul>
-              <b>Technologies: Python, HTML, CSS, Javascript</b>
-            </div>
-          </div>
-        </section>
       </div>
     </div>
     <footer class="mt-5 mb-3">
@@ -122,7 +122,7 @@
           target="_blank"
           ><i class="fab fa-github fa-3x"></i
         ></a>
-        <a href="https://zuri.team/" target="_blank" class="d-inline-block m-4"
+        <a href="https://zuri.team/" target="_blank" class="d-inline-block"
           ><img src="https://zuri.team/img/zuri-logo-full.svg" alt="Zuri Logo"
         /></a>
       </div>
