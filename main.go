@@ -10,7 +10,6 @@ import (
 type ContactDetails struct {
 	Name    string `form:"name"`
 	Email   string `form:"email"`
-	Phone   string `form:"phone"`
 	Message string `form:"message"`
 }
 
